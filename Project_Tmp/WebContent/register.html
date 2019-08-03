@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
+	
+	
+  
+  <!-- 
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style type="text/css">
+  body{
+   background-color: blue; /* For browsers that do not support gradients */
+  /*  background-image: linear-gradient(to right, white , blue); */
+  background-image: linear-gradient(to right,white,rgba(30, 116, 235));
+   
+}
+h1{
+  font-size: 60px; letter-spacing:0.5em;
+  text-shadow: 2px 0px 0px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+</style>
+</head>
+<body>
+<div class="container" style="margin-top:5%;">
+  <div class="row">
+    <div class="col-md-3" > </div>
+<div class="col-md-6">
+
+<div class="card" style="width: 58rem; background-color:#6894bd; height:80rem;">
+  <div class="card-body">
+
+ 
+<h1 class="text-center text-success"> Register</h1>     <!-- need to be modified -->
+<br/>
+<div class="col-sm-12">
+  <ul class="nav nav-pills" >
+    <li class="" style="margin-left:30px;"><a class="btn btn-lg btn-default" data-toggle="tab" href="#home"><i>Register as Individual</i></a></li>
+    <li class=" " style="margin-left:30px;"><a class=" btn btn-lg btn-default" data-toggle="tab" href="#menu1"><i>Register as Corporate</i></a></li>
+  </ul>
+
+<br/>
+
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      
+<form action="#">
+<div>
+  <div class="form-group">
+    <label for="firstname" style="font-size: 15px; letter-spacing:0.2em;word-spacing:0.5em;color:black">First Name:</label>
+    <input type="text" placeholder="Enter your First Name" class="form-control"  required>
+  </div>
+  
+  <div class="form-group">
+    <label for="lastname" style="font-size: 15px; letter-spacing:0.2em;word-spacing:0.5em;color:black">Last Name;</label>
+    <input type="text" placeholder="Enter your Last Name"class="form-control"  required>
+  </div>
+  
+  
+  <div class="form-group">
+    <label for="dob" style="font-size: 15px; letter-spacing:0.2em;word-spacing:0.5em;color:black">DOB</label>
+    <!-- <input type="date" placeholder="Enter your DOB"class="form-control" required> -->
+    
+    <input required="" type="text" class="form-control input-md" placeholder="Date Of Birth" onfocus="(this.type='date')"/> 
+    
+  </div>
+  
+  
+  <div class="form-group">
+    <label for="email" style="font-size: 15px; letter-spacing:0.2em;word-spacing:0.5em;color:black">Email address:</label>
+    <input type="email" placeholder="Enter your Email ID"class="form-control"  required>
+  </div>
+
+
+  <div class="form-group">
+    <label for="contact" style="font-size: 15px; letter-spacing:0.2em;word-spacing:0.5em;color:black">Contact No:</label>
+    <input type="number" placeholder="Enter your Contact No." class="form-control" required>
+  </div>
+
+
+  <div class="form-group">
+    <label for="pwd" style="font-size: 15px; letter-spacing:0.2em;word-spacing:0.5em;color:black">Password:</label>
+    <input type="password" placeholder="Choose any Password"class="form-control" required>
+  </div>
+
+  <div class="form-group">
+    <label for="pwd" style="font-size: 15px; letter-spacing:0.2em;word-spacing:0.5em;color:black">Confirm Password:</label>
+    <input type="password" placeholder="Confirm your Password" class="form-control" required>
+  </div>
+</div>
+
+<div style="text-align:center;margin-top:30px;">
+  <input type="submit"  value="submit" class="btn btn-lg btn-success text-uppercase" style="font-size: 80%;
+  border-radius: 3rem;
+  letter-spacing: .2rem;
+  font-weight: bold;
+  padding: 1rem;
+  transition: all 0.2s;
+  width:13rem;
+  background-color:#258b47;">
+</div>
+
+</form>
+<br/>
+
+
+
+    </div>
+
+    <div id="menu1" class="tab-pane fade">
+
+<form action="#">
+
+ <div>
+  <div class="form-group">
+    <label for="corporatename" style="font-size: 15px; letter-spacing:0.2em;word-spacing:0.5em;color:black">Corporate Name:</label>
+    <input type="text" placeholder="Enter your First Name" class="form-control"  required>
+  </div>
+  
+
+  
+  
+  <div class="form-group">
+    <label for="doe" style="font-size: 15px; letter-spacing:0.2em;word-spacing:0.5em;color:black">DOE</label>
+    <!-- <input type="date" placeholder="Enter your DOE"class="form-control" required> -->
+    
+    <input required="" type="text" class="form-control input-md" placeholder="Date Of Establishment" onfocus="(this.type='date')"/>
+    
+    
+  </div>
+  
+  
+  <div class="form-group">
+    <label for="email" style="font-size: 15px; letter-spacing:0.2em;word-spacing:0.5em;color:black">Email address:</label>
+    <input type="email" placeholder="Enter your Email ID"class="form-control"  required>
+  </div>
+
+
+  <div class="form-group">
+    <label for="contact" style="font-size: 15px; letter-spacing:0.2em;word-spacing:0.5em;color:black">Contact No:</label>
+    <input type="number" placeholder="Enter your Contact No." class="form-control" required>
+  </div>
+
+
+  <div class="form-group">
+    <label for="pwd" style="font-size: 15px; letter-spacing:0.2em;word-spacing:0.5em;color:black">Password:</label>
+    <input type="password" placeholder="Choose any Password"class="form-control" required>
+  </div>
+
+  <div class="form-group">
+    <label for="pwd" style="font-size: 15px; letter-spacing:0.2em;word-spacing:0.5em;color:black">Confirm Password:</label>
+    <input type="password" placeholder="Confirm your Password" class="form-control" required>
+  </div>
+</div>
+
+<div style="text-align:center;margin-top:30px;">
+  <input type="submit"  value="submit" class="btn btn-lg btn-success text-uppercase" style="font-size: 80%;
+  border-radius: 3rem;
+  letter-spacing: .2rem;
+  font-weight: bold;
+  padding: 1rem;
+  transition: all 0.2s;
+  width:13rem;
+  background-color:#258b47;">
+</div>
+
+
+</form>
+<br/>
+    </div>
+   </div>
+ 
+</div>
+ <div class="col-md-3" > </div>
+ </div>
+</div>
+
+
+</div>
+</div>
+
+
+</div>
+<!-- This design is created by Md Azhar  -->
+</body>
+</html>

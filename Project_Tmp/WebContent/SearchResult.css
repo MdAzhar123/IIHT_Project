@@ -1,0 +1,61 @@
+@CHARSET "ISO-8859-1";
+:root {
+  --input-padding-x: 1.5rem;
+  --input-padding-y: .75rem;
+}
+
+body {
+  background-color: blue;
+  /* background: linear-gradient(to right, black, orange); */
+  
+  background-image: linear-gradient(to right,rgba(30, 116, 235),white);
+  
+}
+
+
+
+#customer{
+ font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+ border-collapse:collapse;
+ width:100%;
+
+}
+
+
+#capt{
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+font-size:30px;
+color:#07494a;
+text-align:center;
+
+}
+
+#customer td, #customer th{
+
+border:1px solid #ddd;
+padding:8px;
+
+}
+
+#customer tr:nth-child(even){
+background-color:#f2f2f2;
+}
+
+#customer tr:hover{
+background-color:#ddd;
+}
+
+#customer th{
+
+padding-top:12px;
+padding-bottom:12px;
+text-align:left;
+background-color:#4CAF50;
+color: white;
+
+}
+.navbar{
+	
+	background-image: linear-gradient(to right, #223387,#018B85,#00888A,#026B67); 
+	
+}
